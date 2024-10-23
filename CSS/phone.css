@@ -1,0 +1,56 @@
+/* phone.css */
+
+/* Navigation Bar */
+#navbar ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  /* Home Section */
+  #home {
+    padding: 10px;
+    height: auto;
+  }
+  #home h1 {
+    font-size: 1.5rem;
+  }
+  #home p {
+    font-size: 1rem;
+  }
+  
+  /* Services Section */
+  #services {
+    flex-direction: column;
+    align-items: center;
+  }
+  #services .box {
+    flex: 1 1 100%;
+    margin: 10px 0;
+  }
+  
+  /* Client Section */
+  #clients {
+    flex-direction: column;
+  }
+  .client-item {
+    padding: 10px;
+  }
+  
+  /* Contact Section */
+  #contact form {
+    width: 100%;
+  }
+  
+  /* Utility Classes */
+  .h-primary {
+    font-size: 1.5rem;
+  }
+  .h-secondary {
+    font-size: 1.2rem;
+  }
+  .btn {
+    font-size: 0.9rem;
+  }
+  
+  
