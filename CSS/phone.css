@@ -1,56 +1,79 @@
 /* phone.css */
 
-/* Navigation Bar */
-#navbar ul {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+/* Responsive Design */
+@media (max-width: 1100px) {
+  #navbar ul {
+      flex-direction: column;
+      align-items: flex-start;
   }
-  
-  /* Home Section */
+  #navbar ul li {
+      margin: 5px 0;
+  }
+  #navbar ul li a {
+      padding: 10px;
+      width: 100%;
+  }
+  #logo {
+      margin: 10px;
+  }
   #home {
-    padding: 187px;
-    height: auto;
+      padding: 20px;
+      text-align: center;
   }
   #home h1 {
-    font-size: 1.5rem;
+      font-size: 1.5rem;
   }
   #home p {
-    font-size: 1rem;
+      font-size: 1rem;
   }
-  
-  /* Services Section */
+  .services-container {
+      margin: 20px;
+      padding: 10px;
+  }
   #services {
-    flex-direction: column;
-    align-items: center;
+      flex-direction: column;
+      align-items: center;
   }
   #services .box {
-    flex: 1 1 100%;
-    margin: 10px 0;
+      width: 80%;
+      margin: 10px 0;
   }
-  
-  /* Client Section */
+  #client-section {
+      padding: 0px;
+      height: 720px; /* Adjust height to auto for better fit */
+  }
   #clients {
-    flex-direction: column;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 72px; /* Add margin to avoid overlap with contact */
   }
   .client-item {
-    padding: 10px;
+      padding: 10px;
   }
-  
-  /* Contact Section */
-  #contact form {
-    width: 100%;
+  #contact {
+    margin-top: -76px;
+      padding: 40px 0px; /* Increased padding to create more space */
+      height: auto; /* Adjust height to auto for better fit */
   }
-  
-  /* Utility Classes */
-  .h-primary {
-    font-size: 1.5rem;
+  #contact h1 {
+      font-size: 2.2rem;
   }
-  .h-secondary {
-    font-size: 1.2rem;
+  #contact-box {
+      padding-bottom: 40px; /* Increased padding to ensure no overlap with footer */
+  }
+  #contact-box form {
+      width: 80%;
+  }
+  footer {
+      padding: 40px 20px; /* Ensured footer has enough padding */
+      position: relative; /* Make sure it stays in place */
+      z-index: 1;
   }
   .btn {
-    font-size: 0.9rem;
+      padding: 10px 20px;
+      font-size: 1rem;
   }
+}
+
   
   
